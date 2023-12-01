@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pantai, NTT",
+      "href": "#",
+      "price": "Rp. 545.000",
+      "imageSrc": "https://images.pexels.com/photos/19160413/pexels-photo-19160413/free-photo-of-pemandangan-menakjubkan.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "imageAlt": "Tall slender porcelain bottle with natural clay textured body and cork stopper."
+    },
+    {
+      "id": 2,
+      "name": "Pantai Berlian, Bali",
+      "href": "#",
+      "price": "Rp. 275.000",
+      "imageSrc": "https://images.pexels.com/photos/19137460/pexels-photo-19137460/free-photo-of-pantai-berlian-bali.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "imageAlt": "Olive drab green insulated bottle with flared screw l and flat top."
+    },
+    {
+      "id": 3,
+      "name": "Sukasada, Bali",
+      "href": "#",
+      "price": "Rp. 350.000 ",
+      "imageSrc": "https://images.pexels.com/photos/931007/pexels-photo-931007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "imageAlt": "Person using a pen to cross a task off a productivity paper card."
+    },
+    {
+      "id": 4,
+      "name": "Gunung",
+      "href": "#",
+      "price": "Rp. 450.000",
+      "imageSrc": "https://images.pexels.com/photos/2526431/pexels-photo-2526431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top."
+    },
+    {
+      "id": 5,
+      "name": "Bromo",
+      "href": "#",
+      "price": "Rp. 400.000",
+      "imageSrc": "https://images.pexels.com/photos/9286872/pexels-photo-9286872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "imageAlt": "Hand holding black machined steel mechanical pencil with brass tip and top."
+    }
+  ],
+  "sortOptions": [
+    { "name": "Most Popular", "href": "#", "current": true },
+    { "name": "Best Rating", "href": "#", "current": false },
+    { "name": "Newest", "href": "#", "current": false },
+    { "name": "Price: Low to High", "href": "#", "current": false },
+    { "name": "Price: High to Low", "href": "#", "current": false }
+  ],
+
+  "filters": [
+    {
+      "id": "tipe",
+      "name": "Tipe Perjalanan",
+      "options": [
+        { "value": "opentrip", "label": "Open Trip", "checked": false },
+        { "value": "privatetrip", "label": "Private Trip", "checked": false }
+      ]
+    },
+    {
+      "id": "tema",
+      "name": "Tema Perjalanan",
+      "options": [
+        {
+          "value": "destinasi-populer",
+          "label": "Destinasi Populer",
+          "checked": false
+        },
+        { "value": "vitamin-sea", "label": "Vitamin Sea", "checked": false },
+        { "value": "gunung", "label": "Mendaki Gunung", "checked": true },
+        { "value": "alam", "label": "Menyatu dengan Alam", "checked": false }
+      ]
+    },
+    {
+      "id": "rating",
+      "name": "Rating",
+      "options": [
+        {
+          "value": "5",
+          "label": "5 bintang",
+          "checked": false
+        },
+        { "value": "3-4", "label": "3-4 Bintang", "checked": false }
+      ]
+    }
+  ],
+  "budget": [
+    {
+      "id": "budget",
+      "name": "Budget",
+      "options": [
+        { "value": "budget-min", "label": "Budget minimum", "checked": false },
+        { "value": "budget-maks", "label": "Budget maksimum", "checked": false }
+      ]
+    }
+  ],
+  "tgl": [
+    {
+      "id": "tgl",
+      "name": "Periode Berangkat",
+      "options": [
+        {
+          "value": "periode",
+          "label": "Pilih tanggal keberangkatan",
+          "checked": false
+        }
+      ]
+    }
+  ],
+  "durasi": [
+    {
+      "id": "durasi",
+      "name": "Durasi",
+      "options": [
+        {
+          "value": "hari",
+          "label": "Hari",
+          "checked": false
+        }
+      ]
+    }
+  ],
+  "lokasi": [
+    {
+      "id": "lokasi",
+      "name": "Lokasi Keberangkatan",
+      "options": [
+        {
+          "value": "berangkat",
+          "label": "Cari lokasi keberangkatan",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "destinasi",
+      "name": "Destinasi",
+      "options": [
+        {
+          "value": "destinasi",
+          "label": "Cari Destinasi",
+          "checked": false
+        }
+      ]
+    }
+  ]
+}
